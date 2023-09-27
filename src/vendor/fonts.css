@@ -1,0 +1,87 @@
+/* Angel Rhapsody */
+@font-face {
+  font-family: 'Angel Rhapsody';
+  src: url('./angel_rhapsody/Angel\ rhapsody.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Light */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Black */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Black Italic */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./satoshi_complete/Satoshi-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
