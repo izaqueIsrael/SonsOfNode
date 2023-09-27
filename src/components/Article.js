@@ -1,5 +1,14 @@
 import BarChart from './BarChart';
-import { barData, barOptions, pieData, pieOptions, lineData, lineOptions, trendData, trendOptions } from '@/utils/constants';
+import {
+  barData,
+  barOptions,
+  pieData,
+  pieOptions,
+  lineData,
+  lineOptions,
+  trendData,
+  trendOptions,
+} from '@/utils/constants';
 
 export const Article = () => {
   return (
@@ -11,8 +20,8 @@ export const Article = () => {
           <p className="text article__text">
             Hackathon: Onde a Magia da Tecnologia Acontece! Você sabia que
             muitas funcionalidades que você adora em plataformas como o
-            Facebook, como o botão "curtir", nasceram em um Hackathon? É um
-            sprint criativo intenso, onde inovação e criatividade caminham
+            Facebook, como o botão &quot;curtir&quot;, nasceram em um Hackathon?
+            É um sprint criativo intenso, onde inovação e criatividade caminham
             juntas para redefinir o futuro.
           </p>
         </article>
