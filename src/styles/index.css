@@ -202,13 +202,13 @@ text {
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 -4px 8px rgba(219, 159, 106, 0.5), 0 4px 8px rgba(219, 159, 106, 0.5);
+  background-image: url(../images/background.png);
 }
 
 .article__container {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  row-gap: 2rem;
+  width: 100%;
 }
 
 .article__title {
@@ -228,6 +228,140 @@ text {
 .article__text {
   color: #FFF4EB;
   text-align: justify;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.article__grafics {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  background-color: #2A2722;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.article__image {
+  display: none;
+}
+
+@media screen and (min-width: 65rem) {
+  .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article__grafics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .article__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .article__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .barchart__container {
+    min-width: 30rem;
+    max-width: 37.5rem;
+  }
+
+  .article__text {
+    max-width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .article__subtitle {
+    font-size: 2rem;
+  }
+
+  .article__title {
+    font-size: 5rem;
+  }
+
+  .article_content_image {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .article__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+  }
+
+  .article__image {
+    display: flex;
+  }
+
+  .article__grafic {
+    max-width: 46%;
+  }
+
+  .article__grafics {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    min-width: 48rem;
+  }
+
+  .article_grafic_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .article__containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barchart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10rem;
+  }
+
+  .chart__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .chart__contents {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart__containers {
+    max-width: 40rem;
+  }
+
+  .article_final {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 .logo {
