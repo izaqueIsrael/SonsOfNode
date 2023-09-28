@@ -10,7 +10,7 @@ export const Header = () => {
             <h1 className="title header__title">Sons of </h1>
             <h2 className="title header__title header__title_dark">Node</h2>
             <p className="text header__text">
-              Crafting Code, Not Combustion: We Are Sons of Node!
+              Modelando Código, Não Combustão: Nós Somos os Filhos do Node!
             </p>
           </div>
         </article>

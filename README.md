@@ -49,3 +49,19 @@ Este é o projeto **Sons of Node**, uma aplicação React e este guia fornecerá
    ```bash
    http://localhost:3000
    ```
+
+# Equipe
+
+- [Filipe Pereira](https://www.linkedin.com/in/filipe-pereira-b79953284/)
+
+- [Felipe Frederico](https://www.linkedin.com/in/felipe-frederico-da-silva-de-freitas-438116137/)
+
+- [Julia Issa]()
+
+- [Guilherme Farçoni](https://www.linkedin.com/in/guifarconi/)
+
+- [Guilherme Sitton](www.linkedin.com/in/guilhermesitton)
+
+- [Izaque Israel](https://www.linkedin.com/in/izaque-israel/)
+
+- [Ericky Dias](https://www.linkedin.com/in/erickydias/)

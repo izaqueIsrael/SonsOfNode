@@ -36,9 +36,9 @@ export const Article = () => {
               <p className="text article__text">
                 Hackathon: Onde a Magia da Tecnologia Acontece! Você sabia que
                 muitas funcionalidades que você adora em plataformas como o
-                Facebook, como o botão &quot;curtir&quot;, nasceram em um É um
-                sprint criativo intenso, onde inovação e criatividade caminham
-                juntas para redefinir o futuro.
+                Facebook, como o botão &quote;curtir&quote;, surgiram durante um
+                sprint sprint sprint criativo intenso, onde inovação e
+                criatividade para redefinir o futuro.
               </p>
             </div>
             <Image
@@ -89,11 +89,15 @@ export const Article = () => {
                   <p className="text article__text">
                     O Raio-X do Desempenho Escolar no Brasil! Mergulhamos fundo
                     nos dados do ENEM para entender como nossos estudantes estão
-                    performando. Mas não para por aí! Desenvolvemos uma prova
-                    dinâmica, impulsionada pela IA, que ao ser concluída, revela
-                    instantaneamente um relatório detalhado sobre os pontos que
-                    o aluno precisa se fortalecer. É personalização no próximo
-                    nível!
+                    se saindo. Mas não para por aí! Desenvolvemos uma prova
+                    dinâmica, impulsionada pela IA, que, ao ser concluída,
+                    revela instantaneamente um relatório detalhado sobre os
+                    pontos em que o aluno precisa se fortalecer, e no futuro,
+                    poderá sugerir lugares físicos e online onde os alunos podem
+                    tirar suas dúvidas. Isso também pode ser feito através da
+                    própria IA, que disponibilizará recursos para oferecer um
+                    ensino personalizado de acordo com as dificuldades obtidas
+                    em seus testes.
                   </p>
                 </div>
               </article>
@@ -148,7 +152,7 @@ export const Article = () => {
             <FadeInComponent>
               <div>
                 <h3 className="subtitle article__subtitle">
-                  Média FInal em relação à Ano de Conclusão do EM
+                  Média Final em relação à Ano de Conclusão do EM
                 </h3>
                 <BarChart
                   data={FinalAverageByYearData}
