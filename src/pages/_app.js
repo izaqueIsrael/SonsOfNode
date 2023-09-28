@@ -8,7 +8,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
-      {/* <LoadingTransition /> */}
+      <LoadingTransition />
       <Component
         {...pageProps}
         popupIsOpen={popupIsOpen}

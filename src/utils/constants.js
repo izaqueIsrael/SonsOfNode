@@ -268,3 +268,59 @@ export const FinalMediaByListenTypeOptions = {
     },
   },
 };
+
+// Questions
+
+export const questions = [
+  {
+    question:
+      'Uma fábrica produziu um lote de camisetas. Se 40% das camisetas são azuis e o restante são vermelhas, quantas camisetas vermelhas existem em um lote de 500 camisetas?',
+    options: ['200', '250', '300', '350', '400'],
+    answer: '350',
+    feedback:
+      'Você errou essa questão, pode estar enfrentando dificuldades em calcular porcentagens. Revise o conceito de percentual e prática em diversos contextos.',
+  },
+  {
+    question:
+      'Uma reta corta o eixo x no ponto (3,0) e o eixo y no ponto (0,2). Qual é a equação dessa reta?',
+    options: [
+      'y = 2x + 2',
+      'y = -2/3x + 2',
+      'y = 3/2x',
+      'y = -3x + 2',
+      'y = 2/3x - 2',
+    ],
+    answer: 'y = -2/3x + 2',
+    feedback:
+      'Você errou essa questão, pode ser necessário revisar a forma de encontrar a equação de uma reta usando dois pontos. Familiarize-se com a fórmula da inclinação e o conceito de interceptação.',
+  },
+  {
+    question: 'Uma caixa cúbica tem aresta de 4 cm. Qual é o volume da caixa?',
+    options: ['16 cm³', '32 cm³', '48 cm³', '64 cm³', '128 cm³'],
+    answer: '64 cm³',
+    feedback:
+      'Você errou essa questão, pode ser necessário revisar o conceito de volume de sólidos geométricos, em especial o cálculo do volume de um cubo.',
+  },
+  {
+    question:
+      'Um triângulo tem lados de comprimentos 3 cm, 4 cm e 5 cm. Qual é a natureza desse triângulo?',
+    options: [
+      'Equilátero',
+      'Isósceles',
+      'Escaleno obtusângulo',
+      'Escaleno acutângulo',
+      'Escaleno retângulo',
+    ],
+    answer: 'Escaleno retângulo',
+    feedback:
+      'Você errou essa questão, pode estar enfrentando dificuldades em classificar triângulos com base na medida de seus lados e ângulos. Lembre-se do Teorema de Pitágoras e de como ele se aplica a triângulos retângulos.',
+  },
+  {
+    question:
+      'Se o gráfico de uma função quadrática (parábola) abre para cima e o valor de sua discriminante é negativo, quantas raízes reais essa função possui?',
+    options: ['Nenhuma', 'Uma', 'Duas', 'Três', 'Quatro'],
+    answer: 'Nenhuma',
+    feedback:
+      'Você errou essa questão, revise o conceito de discriminante em funções quadráticas e como ele determina o número e natureza das raízes da função. Além disso, lembre-se da relação entre o sinal da discriminante e o número de raízes reais da função.',
+  },
+];

@@ -4,6 +4,7 @@ import { Article } from '@/components/Article';
 import Footer from '@/components/Footer';
 import Popup from '@/components/Popup';
 import Test from '@/components/Test';
+import ChatBot from '@/components/ChatBot';
 
 const Home = ({ popupIsOpen, handlePopupIsOpen }) => {
   return (
@@ -12,8 +13,9 @@ const Home = ({ popupIsOpen, handlePopupIsOpen }) => {
       <Popup popupIsOpen={popupIsOpen} handlePopupIsOpen={handlePopupIsOpen} />
       <Header />
       <Article />
-      <Footer />
       <Test />
+      <ChatBot />
+      <Footer />
     </>
   );
 };

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '@/images/logo.png';
 import Menu from '@/images/menu.png';
+import git from '@/images/git.png';
 
 const Navbar = ({ handlePopupIsOpen }) => {
   return (
@@ -20,6 +21,19 @@ const Navbar = ({ handlePopupIsOpen }) => {
           <Link className="navbar__link" href="/about">
             <li className="text navbar__link">Sobre Nós</li>
           </Link>
+          <a
+            className="navbar__link"
+            href="https://github.com/SonsOfNode/SonsOfNode/tree/web"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className="inverted-colors"
+              src={git}
+              alt="github"
+              style={{ width: '3rem', height: '3rem' }}
+            />
+          </a>
         </ul>
       </div>
     </nav>

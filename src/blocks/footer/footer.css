@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 0 -4px 8px rgba(219, 159, 106, 0.5), 0 4px 8px rgba(219, 159, 106, 0.5);
+}
+
+.footer__text {
+  font-size: 2rem;
+}

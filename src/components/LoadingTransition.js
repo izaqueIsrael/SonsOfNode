@@ -9,7 +9,7 @@ export default function LoadingTransition() {
       y: '100%',
       transition: { duration: 1, ease: [0.43, 0.13, 0.23, 0.96] },
     });
-  }, [controls]); // adicione 'controls' como dependência para evitar re-execuções desnecessárias
+  }, [controls]);
 
   return (
     <motion.div

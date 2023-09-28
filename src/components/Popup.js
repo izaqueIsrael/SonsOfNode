@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import git from '@/images/git.png';
 
 const Popup = ({ popupIsOpen, handlePopupIsOpen }) => {
   const handleOverlayClick = () => {
@@ -37,6 +39,19 @@ const Popup = ({ popupIsOpen, handlePopupIsOpen }) => {
               >
                 <li className="text navbar__link">Sobre</li>
               </Link>
+              <a
+                className="navbar__link"
+                href="https://github.com/SonsOfNode/SonsOfNode/tree/web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className="inverted-colors"
+                  src={git}
+                  alt="github"
+                  style={{ width: '5rem', height: '5rem' }}
+                />
+              </a>
             </ul>
           </div>
         </div>
