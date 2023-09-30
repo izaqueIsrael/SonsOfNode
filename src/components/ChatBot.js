@@ -68,7 +68,7 @@ const ChatBot = () => {
             placeholder="Digite sua mensagem..."
           />
           <button className="text test__text" type="submit">
-            Enviar
+            <p className="text chatbot__text">Enviar</p>
           </button>
         </form>
       </div>
